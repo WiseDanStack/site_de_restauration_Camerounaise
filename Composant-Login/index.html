@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo"></div>
+            <p>
+                Hello Bienvenu au <span class="content"><span class="wise">W</span>ise<span class="food">F</span>ood</span> <br>
+                Comment je vous appele svp ??
+            </p>
+            <div class="name">
+                <input type="text" id="write">
+            </div>
+            <p>
+                Quel est vôtre tranche d'âge ?  
+            </p>
+            <div class="old">
+                <input type="checkbox">
+                <p class="old1">
+                    12 - 19 ans
+                </p>
+            </div>
+            <div class="oldone">
+                <input type="checkbox">
+                <p class="old1">
+                    20 - 35 ans
+                </p>
+            </div>
+            <div class="oldtwo">
+                <input type="checkbox">
+                <p class="old1">
+                    36 - 80 ans
+                </p>
+            </div>
+            <button>
+                <a href="https://centredecalcul.netlify.app"><span class="go">Venez Svp</span></a> 
+            </button>
+        </div>
+    </div>
+    <script>
+        document.getElementById("write");
+        document.addEventListener("click", () => {
+            document.getElementById("write").style.outline = "none";
+            document.getElementById("write").style.border = "none";
+            document.getElementById("write").style.padding = "10px";
+            document.getElementById("write").style.fontWeight = "bold";
+            document.getElementById("write").style.color = "white";
+
+        });
+    </script>
+</body>
+</html>
